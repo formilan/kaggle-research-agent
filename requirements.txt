@@ -1,0 +1,11 @@
+# Core dependencies
+python-dotenv>=1.0.0
+
+# Google AI
+google-genai>=1.50.0
+google-generativeai>=0.8.0
+google-cloud-aiplatform>=1.127.0
+
+# Google Auth
+google-auth>=2.40.0
+google-auth-oauthlib>=1.2.0

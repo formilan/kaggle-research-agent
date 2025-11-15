@@ -1,0 +1,105 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║       KAGGLE RESEARCH AGENT - GUIDA RAPIDA                   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🎯 COME USARE L'AGENTE SU WINDOWS
+═══════════════════════════════════════════════════════════════
+
+📌 METODO FACILE - Doppio click sui file .bat
+────────────────────────────────────────────────────────────
+
+1. START_AGENT_DEMO.bat
+   → Demo veloce con 2 query di esempio
+   → Durata: ~5 secondi
+   
+2. START_AGENT_INTERACTIVE.bat  ⭐ CONSIGLIATO
+   → Modalità interattiva - fai tutte le domande che vuoi
+   → Scrivi la tua domanda e premi INVIO
+   → Scrivi 'quit' per uscire
+
+
+📌 METODO ALTERNATIVO - Prompt dei Comandi (CMD)
+────────────────────────────────────────────────────────────
+
+1. Apri il Prompt dei Comandi:
+   - Premi Win + R
+   - Scrivi: cmd
+   - Premi INVIO
+
+2. Vai nella directory dell'agente:
+   cd C:\Users\info\Desktop\kaggle-agent\kaggle-research-agent
+
+3. Esegui uno di questi comandi:
+   python main.py                # Demo rapida
+   python main.py interactive    # Modalità interattiva
+   python main.py vertex         # Vertex AI (richiede setup)
+
+
+⚠️ PERCHÉ Win+R NON FUNZIONA?
+────────────────────────────────────────────────────────────
+
+Win+R esegue il comando e CHIUDE subito la finestra!
+
+Soluzione:
+✅ Usa i file .bat (doppio click)
+✅ Oppure apri CMD prima (Win+R → cmd → INVIO)
+
+
+🎮 ESEMPI DI DOMANDE DA FARE
+────────────────────────────────────────────────────────────
+
+Modalità interattiva (START_AGENT_INTERACTIVE.bat):
+
+Your question: Cos'è il machine learning?
+Your question: Come funzionano le reti neurali?
+Your question: Spiegami il deep learning
+Your question: Quali sono le applicazioni dell'AI?
+Your question: quit
+
+
+📊 COSA ASPETTARSI
+────────────────────────────────────────────────────────────
+
+Quando usi l'agente vedrai:
+✅ Planning research strategy...
+✅ Executing research...
+✅ Generating final response...
+✅ Evaluation Score: 95.0/100
+✅ Response Time: ~0.01s
+
+Le risposte sono simulate (Mock Mode) ma l'agente 
+dimostra perfettamente tutti i concetti richiesti!
+
+
+📚 FILE UTILI
+────────────────────────────────────────────────────────────
+
+Sul Desktop:
+- GUIDA_SETUP_AGENTE.md → Setup completo
+- SETUP_VERTEX_AI.md → Come attivare Vertex AI
+
+Nella directory agente:
+- START_AGENT_DEMO.bat → Demo rapida
+- START_AGENT_INTERACTIVE.bat → Modalità interattiva
+- README.md → Documentazione tecnica
+- TECHNICAL_WRITEUP.md → Analisi dettagliata
+
+
+🆘 PROBLEMI?
+────────────────────────────────────────────────────────────
+
+La finestra si chiude subito?
+→ NON usare Win+R direttamente
+→ Clicca sui file .bat invece
+
+"Python not found"?
+→ Verifica installazione Python
+→ Prova: python3 main.py
+
+Altri problemi?
+→ Consulta GUIDA_SETUP_AGENTE.md sul Desktop
+
+
+✨ BUON DIVERTIMENTO CON IL TUO AGENTE! ✨
